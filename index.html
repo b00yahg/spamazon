@@ -44,7 +44,7 @@
                 <button class="tab-button" onclick="openSubTab(event, 'AdventuringGear', 'NonMagicItems')">Adventuring Gear</button>
             </div>
 
-            <div id="Weapons" class="tabcontent">
+            <div id="Weapons" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Club</h3>
@@ -229,7 +229,7 @@
                 </div>
             </div>
 
-            <div id="Armor" class="tabcontent">
+            <div id="Armor" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Padded Armor</h3>
@@ -351,7 +351,7 @@
                 </div>
             </div>
 
-            <div id="AdventuringGear" class="tabcontent">
+            <div id="AdventuringGear" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Backpack</h3>
@@ -508,7 +508,7 @@
                 <button class="tab-button" onclick="openSubTab(event, 'Rods', 'MagicItems')">Rods</button>
             </div>
 
-            <div id="MagicWeapons" class="tabcontent">
+            <div id="MagicWeapons" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Weapon, +1, +2, or +3</h3>
@@ -754,7 +754,7 @@
                 </div>
             </div>
 
-            <div id="MagicArmor" class="tabcontent">
+            <div id="MagicArmor" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Armor, +1, +2, or +3</h3>
@@ -889,7 +889,7 @@
                 </div>
             </div>
 
-            <div id="WondrousItems" class="tabcontent">
+            <div id="WondrousItems" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Bag of Holding</h3>
@@ -1318,7 +1318,7 @@
                     </div>
                 </div>
             </div>
-            <div id="Potions" class="tabcontent">
+            <div id="Potions" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Potion of Healing</h3>
@@ -1500,7 +1500,7 @@
                 </div>
             </div>
 
-            <div id="Rings" class="tabcontent">
+            <div id="Rings" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Ring of Animal Influence</h3>
@@ -1669,7 +1669,7 @@
                 </div>
             </div>
 
-            <div id="Scrolls" class="tabcontent">
+            <div id="Scrolls" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Spell Scroll (Cantrip)</h3>
@@ -1743,7 +1743,7 @@
                     </div>
                 </div>
             </div>
-            <div id="Wands" class="tabcontent">
+            <div id="Wands" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Wand of Magic Detection</h3>
@@ -1853,7 +1853,7 @@
                 </div>
             </div>
 
-            <div id="Staff" class="tabcontent">
+            <div id="Staff" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Staff of the Python</h3>
@@ -1949,7 +1949,7 @@
                 </div>
             </div>
 
-            <div id="Rods" class="tabcontent">
+            <div id="Rods" class="subtabcontent">
                 <div class="product-grid">
                     <div class="product-item">
                         <h3>Rod of the Pact Keeper, +1</h3>
@@ -2016,18 +2016,17 @@
                     </div>
                 </div>
         </div>
+        </div>
         <div id="Spelljammers" class="tabcontent">
                 <div class="tabs">
-                    <button class="tablinks" onclick="openSubTab(event, 'ShipWeapons')">Ship Weapons</button>
-                    <button class="tablinks" onclick="openSubTab(event, 'Modules')">Modules</button>
-                    <button class="tablinks" onclick="openSubTab(event, 'Upgrades')">Upgrades</button>
-                    <button class="tablinks" onclick="openSubTab(event, 'ForeMantle')">Fore Mantle Equipment</button>
-                    <button class="tablinks" onclick="openSubTab(event, 'Ammunition')">Ammunition & Deployables</button>
-                    <button class="tablinks" onclick="openSubTab(event, 'Ships')">Spelljammer Ships</button>
+                    <button class="tab-button" onclick="openSubTab(event, 'ShipWeapons', 'Spelljammers')">Ship Weapons</button>
+                    <button class="tab-button" onclick="openSubTab(event, 'Modules', 'Spelljammers')">Modules</button>
+                    <button class="tab-button" onclick="openSubTab(event, 'Upgrades', 'Spelljammers')">Upgrades</button>
+                    <button class="tab-button" onclick="openSubTab(event, 'ForeMantle', 'Spelljammers')">Fore Mantle Equipment</button>
+                    <button class="tab-button" onclick="openSubTab(event, 'Ammunition', 'Spelljammers')">Ammunition & Deployables</button>
+                    <button class="tab-button" onclick="openSubTab(event, 'Ships', 'Spelljammers')">Spelljammer Ships</button>
                 </div>
               
-                <div id="ShipWeapons" class="subtabcontent">
-                  <div class="product-grid">
                     <div id="ShipWeapons" class="subtabcontent">
                         <div class="product-grid">
                           <div class="product-item">
@@ -2193,11 +2192,7 @@
                           </div>
                         </div>
                       </div>
-                  </div>
-                </div>
               
-                <div id="Modules" class="subtabcontent">
-                  <div class="product-grid">
                     <div id="Modules" class="subtabcontent">
                         <div class="product-grid">
                           <div class="product-item">
@@ -2329,11 +2324,7 @@
                           </div>
                         </div>
                       </div>
-                  </div>
-                </div>
-              
-                <div id="Upgrades" class="subtabcontent">
-                  <div class="product-grid">
+
                     <div id="Upgrades" class="subtabcontent">
                         <div class="product-grid">
                           <div class="product-item">
@@ -2414,11 +2405,7 @@
                           </div>
                         </div>
                       </div>
-                  </div>
-                </div>
-              
-                <div id="ForeMantle" class="subtabcontent">
-                  <div class="product-grid">
+
                     <div id="ForeMantle" class="subtabcontent">
                         <div class="product-grid">
                           <div class="product-item">
@@ -2464,11 +2451,7 @@
                           </div>
                         </div>
                       </div>
-                  </div>
-                </div>
               
-                <div id="Ammunition" class="subtabcontent">
-                  <div class="product-grid">
                     <div id="Ammunition" class="subtabcontent">
                         <div class="product-grid">
                           <div class="product-item">
@@ -2560,8 +2543,7 @@
   </div>
 </div>
 </div>
-</div>
-</div>
+
         <footer>
                 <p>© 2000 Spamazon and suborditnates are owned by the Elvish Imperial Navy. Best viewed in Arcane Explorer 5.5 or Invocation Navigator 6.0</p>
                 <img src="https://64.media.tumblr.com/1460c02e58900dbc225caa42866cef72/tumblr_ppkuwq31Ii1vpf6ddo1_400.gifv" alt="Under Construction" class="construction-gif">

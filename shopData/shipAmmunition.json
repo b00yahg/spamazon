@@ -1,0 +1,53 @@
+[
+    { "name": "Ballista Bolts", 
+    "price": "5gp (x1) / 100gp (x20)", 
+    "weight": "0.02 tons (x1) / 0.4 tons (x20)" 
+},{
+    "name": "Catapult Stones",
+    "price": "5gp (x1) / 100gp (x20)",
+    "weight": "0.05 tons (x1) / 1 ton (x20)"
+  },
+  {
+    "name": "Cannonballs",
+    "price": "20gp (x1) / 400gp (x20)",
+    "weight": "0.05 tons (x1) / 1 ton (x20)"
+  },
+  {
+    "name": "Fire Projector Cartridge",
+    "price": "100gp (x20)",
+    "weight": "0.02 tons (x1) / 0.4 tons (x20)"
+  },
+  {
+    "name": "Matick's Cannon Pellets",
+    "price": "2.5gp (x1) / 50gp (x20)",
+    "weight": "0.01 tons (x1) / 0.2 tons (x20)"
+  },
+  {
+    "name": "Helmseeker",
+    "price": "75gp (x1) / 375gp (x5)",
+    "weight": "0.2 tons (x1) / 1 ton (x5)"
+  },
+  {
+    "name": "Aether Charge",
+    "price": "250gp (x1) / 1,250gp (x5)",
+    "weight": "0.5 tons (x1) / 2.5 tons (x5)"
+  },
+  {
+    "name": "Alchemist's Fire Canister",
+    "price": "25gp (x1) / 500gp (x20)",
+    "weight": "0.04 tons (x1) / 0.8 tons (x20)",
+    "description": "When launched by a catapult, the damage type of the attack becomes fire and damage dealt against bulwark points is doubled."
+  },
+  {
+    "name": "Chainshot",
+    "price": "100gp (x1) / 2,000gp (x20)",
+    "weight": "0.06 tons (x1) / 1.2 tons (x20)",
+    "description": "On hit, it hampers the smooth operation of the sails and rigging, potentially reducing the ship's maneuverability."
+  },
+      { "name": "Helmshackle Bolts", 
+    "price": "50gp (x1) / 1,000gp (x20)", 
+    "weight": "0.03 tons (x1) / 0.6 tons (x20)" ,
+    "description": "These specialized ballista bolts stick into the hull of a wildjammer and leech power from the helm to snare it, potentially reducing the ship's speed."
+}
+
+]

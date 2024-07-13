@@ -1,0 +1,134 @@
+[
+    {
+      "name": "Ring of Animal Influence",
+      "price": "1,200 gp",
+      "description": "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 of its charges to cast one of the following spells: Animal friendship (save DC 13), Fear (save DC 13), targeting only beasts that have an Intelligence of 3 or lower, Speak with animals",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Ring of Djinni Summoning",
+      "price": "125,000 gp",
+      "description": "While wearing this ring, you can speak its command word as an action to summon a particular djinni from the Elemental Plane of Air. The djinni appears in an unoccupied space you choose within 120 feet of you. It remains as long as you concentrate (as if concentrating on a spell), to a maximum of 1 hour, or until it drops to 0 hit points. It then returns to its home plane.",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Ring of Elemental Command",
+      "price": "200,000 gp",
+      "description": "This ring is linked to one of the four Elemental Planes. The GM chooses or randomly determines the linked plane. While wearing this ring, you have advantage on attack rolls against elementals from the linked plane, and they have disadvantage on attack rolls against you. In addition, you have access to properties based on the linked plane.",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Ring of Evasion",
+      "price": "5,000 gp",
+      "description": "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. When you fail a Dexterity saving throw while wearing it, you can use your reaction to expend 1 of its charges to succeed on that saving throw instead.",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Ring of Feather Falling",
+      "price": "2,000 gp",
+      "description": "When you fall while wearing this ring, you descend 60 feet per round and take no damage from falling.",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Ring of Free Action",
+      "price": "20,000 gp",
+      "description": "While you wear this ring, difficult terrain doesn't cost you extra movement. In addition, magic can neither reduce your speed nor cause you to be paralyzed or restrained.",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Ring of Invisibility",
+      "price": "50,000 gp",
+      "description": "While wearing this ring, you can turn invisible as an action. Anything you are wearing or carrying is invisible with you. You remain invisible until the ring is removed, until you attack or cast a spell, or until you use a bonus action to become visible again.",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Ring of Jumping",
+      "price": "2,500 gp",
+      "description": "While wearing this ring, you can cast the jump spell from it as a bonus action at will, but can target only yourself when you do so.",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Ring of Mind Shielding",
+      "price": "16,000 gp",
+      "description": "While wearing this ring, you are immune to magic that allows other creatures to read your thoughts, determine whether you are lying, know your alignment, or know your creature type. Creatures can telepathically communicate with you only if you allow it.",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Ring of Protection",
+      "price": "3,500 gp",
+      "description": "You gain a +1 bonus to AC and saving throws while wearing this ring.",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Ring of Regeneration",
+      "price": "40,000 gp",
+      "description": "While wearing this ring, you regain 1d6 hit points every 10 minutes, provided that you have at least 1 hit point. If you lose a body part, the ring causes the missing part to regrow and return to full functionality after 1d6+1 days if you have at least 1 hit point the whole time.",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Ring of Resistance",
+      "price": "6,000 gp",
+      "description": "You have resistance to one damage type while wearing this ring. The gem in the ring indicates the type, which the GM chooses or determines randomly.",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Ring of Shooting Stars",
+      "price": "14,000 gp",
+      "description": "While wearing this ring in dim light or darkness, you can cast dancing lights and light from the ring at will. Casting either spell from the ring requires an action. The ring has 6 charges for the following other properties: Faerie Fire (1 charge), Ball Lightning (2 charges), Shooting Stars (1-3 charges)",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Ring of Spell Storing",
+      "price": "24,000 gp",
+      "description": "This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time.",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Ring of Spell Turning",
+      "price": "30,000 gp",
+      "description": "While wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of effect). In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no effect on you and instead targets the caster.",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Ring of Swimming",
+      "price": "3,000 gp",
+      "description": "You have a swimming speed of 40 feet while wearing this ring.",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Ring of Telekinesis",
+      "price": "80,000 gp",
+      "description": "While wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren't being worn or carried.",
+      "rarity": "Very Rare"
+    },
+    {
+      "name": "Ring of the Ram",
+      "price": "5,000 gp",
+      "description": "This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to attack one creature you can see within 60 feet of you.",
+      "rarity": "Rare"
+    },
+    {
+      "name": "Ring of Three Wishes",
+      "price": "97,950 gp",
+      "description": "While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the wish spell from it. The ring becomes nonmagical when you use the last charge.",
+      "rarity": "Legendary"
+    },
+    {
+      "name": "Ring of Warmth",
+      "price": "1,000 gp",
+      "description": "While wearing this ring, you have resistance to cold damage. In addition, you and everything you wear and carry are unharmed by temperatures as low as -50 degrees Fahrenheit.",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Ring of Water Walking",
+      "price": "1,500 gp",
+      "description": "While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground.",
+      "rarity": "Uncommon"
+    },
+    {
+      "name": "Ring of X-ray Vision",
+      "price": "6,000 gp",
+      "description": "While wearing this ring, you can use an action to speak its command word. When you do so, you can see into and through solid matter for 1 minute. This vision has a radius of 30 feet.",
+      "rarity": "Rare"
+    }
+  ]

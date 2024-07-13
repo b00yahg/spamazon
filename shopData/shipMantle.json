@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Ram",
+        "price": "2,500gp",
+        "description": "Reduces damage taken when colliding with another ship or mega creature."
+      },
+      {
+        "name": "Grappling Ram",
+        "price": "2,500gp",
+        "description": "Designed for grappling another ship during collision."
+      },
+      {
+        "name": "Grappler Arms",
+        "price": "10,000gp",
+        "description": "Allows the Helmsman to make bludgeoning attacks or attempt to grapple other ships."
+      },
+      {
+        "name": "Dragon Figurehead",
+        "price": "5,000gp",
+        "description": "Can breathe fire in a large cone ahead of the ship."
+      },
+      {
+        "name": "Couatl Figurehead",
+        "price": "5,000gp",
+        "description": "Can repair the ship using gathered magical energy."
+      },
+      {
+        "name": "Displacer Beast Figurehead",
+        "price": "7,500gp",
+        "description": "Creates magical illusions of the ship to grant disadvantage on attack rolls against it."
+      }
+]

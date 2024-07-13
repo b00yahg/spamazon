@@ -24,28 +24,12 @@ function openTab(evt, tabName) {
     document.getElementById(tabName).style.display = "block";
     evt.currentTarget.className += " active";
 
-    if (tabName === 'Spelljammers') {
-        document.querySelector('#Spelljammers .subtabcontent').style.display = 'block';
-        document.querySelector('#Spelljammers .tabs .tablinks').classList.add('active');
-    }
 }
 // hoping this helps handle spelljammer subtab
-function openSubTab(evt, subTabName) {
-    var i, subtabcontent, subtablinks;
-    subtabcontent = document.getElementsByClassName("subtabcontent");
-    for (i = 0; i < subtabcontent.length; i++) {
-        subtabcontent[i].style.display = "none";
-    }
-    subtablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < subtablinks.length; i++) {
-        subtablinks[i].className = subtablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(subTabName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-function openSubTab(evt, subTabName) {
+function openSubTab(evt, tabdisplay, subTabName) {
+    // document.getElementsByClassName("product-grid").style.display = 'none';
     var i, tabcontent, tablinks;
-    tabcontent = document.getElementById(subTabName).getElementsByClassName("tabcontent");
+    tabcontent = document.getElementsByClassName("subtabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
     }
@@ -53,7 +37,7 @@ function openSubTab(evt, subTabName) {
     for (i = 0; i < tablinks.length; i++) {
         tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
-    document.getElementById(subTabName).style.display = "block";
+    document.getElementById(tabdisplay).style.display = "block";
     evt.currentTarget.className += " active";
 }
 // Opening spelljammer tab to hopefully fix spelljammer tab failure

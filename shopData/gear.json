@@ -1,0 +1,117 @@
+[
+    {"name": "Backpack",
+    "price": "2 gp",
+    "description": "A sturdy leather pack with straps to wear on your back. It can hold up to 1 cubic foot or 30 pounds of gear."
+    },
+    {
+        "name": "Bedroll",
+        "price": "1 gp",
+        "description": "A portable, padded sleeping mat for resting comfortably during long journeys or camping."
+      },
+      {
+        "name": "Mess Kit",
+        "price": "2 sp",
+        "description": "A tin box containing a cup and simple cutlery. The box can be used as a cooking pan and the lid as a plate."
+      },
+      {
+        "name": "Tinderbox",
+        "price": "5 sp",
+        "description": "A small container holding flint, fire steel, and tinder used to light fires. Using it to light a torch takes an action."
+      },
+      {
+        "name": "Torch",
+        "price": "1 cp",
+        "description": "A wooden stick capped with cloth soaked in pitch. When lit, it burns for 1 hour, providing bright light in a 20-foot radius."
+      },
+      {
+        "name": "Rations (1 day)",
+        "price": "5 sp",
+        "description": "A mix of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."
+      },
+      {
+        "name": "Waterskin",
+        "price": "2 sp",
+        "description": "A leather container used for storing and carrying water or other liquids. It can hold up to 4 pints of liquid."
+      },
+      {
+        "name": "Hempen Rope (50 feet)",
+        "price": "1 gp",
+        "description": "Strong rope made from hemp fibers. It has AC 11, 2 hit points, and can be burst with a DC 17 Strength check."
+      },
+      {
+        "name": "Crowbar",
+        "price": "2 gp",
+        "description": "A sturdy iron bar used for prying. It grants advantage on Strength checks where leverage can be applied."
+      },
+      {
+        "name": "Grappling Hook",
+        "price": "2 gp",
+        "description": "A three-pronged metal hook used for climbing or securing a rope. It can be thrown to catch on battlements or tree branches."
+      },
+      {
+        "name": "Hammer",
+        "price": "1 gp",
+        "description": "A one-handed hammer with a wooden handle. Useful for pounding in pitons, tent stakes, or other general purposes."
+      },
+      {
+        "name": "Healer's Kit",
+        "price": "5 gp",
+        "description": "A leather pouch containing bandages, salves, and splints. It has 10 uses and can be used to stabilize a dying creature."
+      },
+      {
+        "name": "Lantern, Hooded",
+        "price": "5 gp",
+        "description": "A lantern with a hood to control the light. It burns oil and provides bright light in a 30-foot radius and dim light for an additional 30 feet."
+      },
+      {
+        "name": "Oil (flask)",
+        "price": "1 sp",
+        "description": "A flask of oil that can fuel a lantern for 6 hours. It can also be used as a thrown weapon or to make an area slippery."
+      },
+      {
+        "name": "Piton",
+        "price": "5 cp",
+        "description": "A small metal spike used for climbing. It can be hammered into cracks or between stones to create an anchor point for ropes."
+      },
+      {
+        "name": "Spyglass",
+        "price": "1,000 gp",
+        "description": "A portable telescope that makes distant objects appear closer. Objects viewed through it are magnified to twice their size."
+      },
+      {
+        "name": "Alchemist's Fire (flask)",
+        "price": "50 gp",
+        "description": "A sticky, adhesive fluid that ignites when exposed to air. As an action, you can throw it up to 20 feet, dealing 1d4 fire damage on a hit."
+      },
+      {
+        "name": "Antitoxin (vial)",
+        "price": "50 gp",
+        "description": "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour."
+      },
+      {
+        "name": "Climber's Kit",
+        "price": "25 gp",
+        "description": "Includes pitons, boot tips, gloves, and a harness. Gives you advantage on Strength (Athletics) checks made to climb."
+      },
+      {
+        "name": "Fishing Tackle",
+        "price": "1 gp",
+        "description": "Includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."
+      },
+      {
+        "name": "Magnifying Glass",
+        "price": "100 gp",
+        "description": "This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires."
+      },
+      {
+        "name": "Portable Ram",
+        "price": "4 gp",
+        "description": "A handheld battering ram. You can use it to break down doors, giving you a +4 bonus to Strength checks to do so."
+      },
+      {
+        "name": "Thieves' Tools",
+        "price": "25 gp",
+        "description": "A set of tools for picking locks and disarming traps. Proficiency with these tools lets you add your proficiency bonus to ability checks made to disarm traps or open locks."
+      }
+
+    ]

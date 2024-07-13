@@ -1,0 +1,127 @@
+[
+    {"name": "Light Ballista",
+    "price": "1,000gp",
+    "damage": "2d4 mega piercing",
+    "properties": "Ammunition (2,500/7,500 ft.), crew 1",
+    "size": "Small"
+    },
+    {
+        "name": "Medium Ballista",
+        "price": "2,000gp",
+        "damage": "2d6 mega piercing",
+        "properties": "Ammunition (3,000/9,000 ft.), crew 2",
+        "size": "Medium"
+    },
+    {
+        "name": "Heavy Ballista",
+        "price": "4,000gp",
+        "damage": "2d8 mega piercing",
+        "properties": "Ammunition (3,500/10,500 ft.), crew 3",
+        "size": "Large"
+    },
+    {
+        "name": "Light Catapult",
+        "price": "1,000gp",
+        "damage": "3d4 mega bludgeoning",
+        "properties": "Ammunition (3,500/10,500 ft.), fixed, crew 1",
+        "size": "Small"
+    },
+    {
+        "name": "Medium Catapult",
+        "price": "2,000gp",
+        "damage": "3d6 mega bludgeoning",
+        "properties": "Ammunition (4,000/12,000 ft.), fixed, crew 3",
+        "size": "Medium"
+    },
+    {
+        "name": "Heavy Catapult",
+        "price": "4,000gp",
+        "damage": "3d8 mega bludgeoning",
+        "properties": "Ammunition (4,500/13,500 ft.), fixed, crew 5",
+        "size": "Large"
+    },
+    {
+        "name": "Carronade",
+        "price": "2,000gp",
+        "damage": "3d6 mega bludgeoning",
+        "properties": "Ammunition (2,500/7,500 ft.), fixed, loading, backfire 1, crew 2",
+        "size": "Small"
+    },
+    {
+        "name": "12-Pounder Long Gun",
+        "price": "4,000gp",
+        "damage": "3d8 mega bludgeoning",
+        "properties": "Ammunition (5,000/15,000 ft.), fixed, loading, backfire 2, crew 4",
+        "size": "Medium"
+    },
+    {
+        "name": "24-Pounder Long Gun",
+        "price": "6,000gp",
+        "damage": "3d10 mega bludgeoning",
+        "properties": "Ammunition (6,000/18,000 ft.), fixed, loading, backfire 3, crew 6",
+        "size": "Large"
+    },
+    {
+        "name": "36-Pounder Long Gun",
+        "price": "10,000gp",
+        "damage": "4d20 mega bludgeoning",
+        "properties": "Ammunition (6,000/18,000 ft.), fixed, overheat, backfire 4, crew 8",
+        "size": "Large"
+    },
+    {
+        "name": "Light Dual Ballista",
+        "price": "2,000gp",
+        "damage": "2d4 mega piercing",
+        "properties": "Ammunition (2,500/7,500 ft.), automatic, fixed, crew 2",
+        "size": "Small"
+    },
+    {
+        "name": "Medium Dual Ballista",
+        "price": "4,000gp",
+        "damage": "2d6 mega piercing",
+        "properties": "Ammunition (3,000/9,000 ft.), automatic, fixed, crew 3",
+        "size": "Medium"
+    },
+    {
+        "name": "Heavy Dual Ballista",
+        "price": "8,000gp",
+        "damage": "2d8 mega piercing",
+        "properties": "Ammunition (3,500/10,500 ft.), automatic, fixed, crew 4",
+        "size": "Large"
+    },
+    {
+        "name": "Helmseeker Launcher",
+        "price": "3,000gp",
+        "damage": "3d10 mega fire",
+        "properties": "Deployable (4,500 ft.), fixed, loading, special, crew 4",
+        "size": "Medium"
+    },
+    {
+        "name": "Aether Charge Launcher",
+        "price": "5,000gp",
+        "damage": "6d8 mega fire",
+        "properties": "Deployable (0 ft.), fixed, loading, special, crew 4",
+        "size": "Medium"
+    },
+    {
+        "name": "Fire Projector",
+        "price": "2,000gp",
+        "damage": "3d4 mega fire",
+        "properties": "Ammunition (1,000/3,000 ft.), fixed, special, crew 1",
+        "size": "Small"
+    },
+    {
+        "name": "Grappling Ballista",
+        "price": "2,000gp",
+        "damage": "1d4 mega piercing",
+        "properties": "Ammunition (1,500/4,500 ft.), special, crew 2",
+        "size": "Small"
+    },
+    {
+        "name": "Matick's Cannon",
+        "price": "5,000gp",
+        "damage": "2d4+2 mega force",
+        "properties": "Ammunition (2,500/7,500 ft.), automatic, special, crew 1",
+        "size": "Medium"
+    }
+]

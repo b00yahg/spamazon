@@ -1,0 +1,62 @@
+[
+    {
+        "name": "Spell Scroll (Cantrip)",
+        "price": "25 gp",
+        "description": "A spell scroll of 0 level (cantrip). The save DC is 13 and the attack bonus is +5.",
+        "rarity": "Common"
+    },
+    {
+        "name": "Spell Scroll (1st Level)",
+        "price": "50 gp",
+        "description": "A spell scroll of 1st level. The save DC is 13 and the attack bonus is +5.",
+        "rarity": "Common"
+    },
+    {
+        "name": "Spell Scroll (2nd Level)",
+        "price": "150 gp",
+        "description": "A spell scroll of 2nd level. The save DC is 13 and the attack bonus is +5.",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Spell Scroll (3rd Level)",
+        "price": "300 gp",
+        "description": "A spell scroll of 3rd level. The save DC is 15 and the attack bonus is +7.",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Spell Scroll (4th Level)",
+        "price": "500 gp",
+        "description": "A spell scroll of 4th level. The save DC is 15 and the attack bonus is +7.",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Spell Scroll (5th Level)",
+        "price": "1,000 gp",
+        "description": "A spell scroll of 5th level. The save DC is 17 and the attack bonus is +9.",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Spell Scroll (6th Level)",
+        "price": "1,500 gp",
+        "description": "A spell scroll of 6th level. The save DC is 17 and the attack bonus is +9.",
+        "rarity": "Very Rare"
+    },
+    {
+        "name": "Spell Scroll (7th Level)",
+        "price": "2,500 gp",
+        "description": "A spell scroll of 7th level. The save DC is 18 and the attack bonus is +10.",
+        "rarity": "Very Rare"
+    },
+    {
+        "name": "Spell Scroll (8th Level)",
+        "price": "5,000 gp",
+        "description": "A spell scroll of 8th level. The save DC is 18 and the attack bonus is +10.",
+        "rarity": "Very Rare"
+    },
+    {
+        "name": "Spell Scroll (9th Level)",
+        "price": "10,000 gp",
+        "description": "A spell scroll of 9th level. The save DC is 19 and the attack bonus is +11.",
+        "rarity": "Legendary"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {"name":"Anchor",
+     "price": "1,000gp",
+     "cargo": "1 ton",
+     "description": "Allows a ship to land and stay afloat without a Helmsman powering it."   
+},
+
+{
+    "name": "Arcane Amplifier",
+    "price": "10,000gp",
+    "cargo": "0 tons",
+    "description": "Allows spellcasters to amplify offensive evocation spells to mega scale."
+  },
+  {
+    "name": "Arcane Font",
+    "price": "1,500gp",
+    "cargo": "1 ton",
+    "description": "Gathers residual magical energy to cast the Automatic Helm spell once per day."
+  },
+  {
+    "name": "Astrolabe",
+    "price": "2,000gp",
+    "cargo": "1 ton",
+    "description": "Generates an illusory representation of celestial bodies within a crystal sphere."
+  },
+  {
+    "name": "Brig",
+    "price": "3,000gp",
+    "cargo": "3 tons",
+    "description": "A secure room for containing up to 5 medium creatures."
+  },
+  {
+    "name": "Chameleon Orb",
+    "price": "6,000gp",
+    "cargo": "3 tons",
+    "description": "Generates an illusion of the surrounding landscape to hide the ship when landed."
+  },
+  {
+    "name": "Fighter Bay",
+    "price": "4,000gp",
+    "cargo": "4 tons",
+    "description": "Stores one fighter-sized ship for use by a Fighter Helmsman."
+  },
+  {
+    "name": "Invisibility Amplifier",
+    "price": "12,000gp",
+    "cargo": "1 ton",
+    "description": "Amplifies the Invisibility spell to mega scale, affecting the entire ship."
+  },
+  {
+    "name": "Jettison",
+    "price": "3,000gp",
+    "cargo": "3 tons",
+    "description": "Releases debris behind the ship, functioning as a physical version of the Jettison spell."
+  },
+  {
+    "name": "Lifeboats",
+    "price": "1,000gp",
+    "cargo": "1 ton",
+    "description": "Specialized pods that can carry crew members to safety."
+  },
+  {
+    "name": "Passage Device",
+    "price": "12,000gp",
+    "cargo": "5 tons",
+    "description": "Allows the Helmsman to cast the Create Portal spell once per day."
+  },
+  {
+    "name": "Plane Shift Amplifier",
+    "price": "50,000gp",
+    "cargo": "1 ton",
+    "description": "Amplifies the Plane Shift spell to affect the entire ship."
+  },
+  {
+    "name": "Portal Locator",
+    "price": "1,000gp",
+    "cargo": "1 ton",
+    "description": "Casts the Locate Portal spell for the Helmsman."
+  },
+  {
+    "name": "Sending Chamber",
+    "price": "12,000gp",
+    "cargo": "4 tons",
+    "description": "Allows long-distance communication between ships with Sending Chambers."
+  },
+  {
+    "name": "Sick Bay",
+    "price": "5,000gp",
+    "cargo": "2 tons",
+    "description": "Provides medical care and healing for the crew."
+  },
+  {
+    "name": "Workshop",
+    "price": "4,000gp",
+    "cargo": "4 tons",
+    "description": "Provides tools and space for artisans to work on projects during travel."
+  }
+]

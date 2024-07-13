@@ -1,0 +1,176 @@
+[
+    {
+        "name": "Adamantine Weapon",
+        "price": "500 gp",
+        "description": "Melee weapon or ammunition made of or coated with adamantine. Whenever the weapon hits an object, the hit is a critical hit.",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Ammunition, +1, +2, or +3",
+        "price": "25 gp (+1), 100 gp (+2), 400 gp (+3) per piece",
+        "description": "You have a bonus to attack and damage rolls made with this piece of magic ammunition. Once it hits a target, the ammunition is no longer magical.",
+        "rarity": "Uncommon (+1), Rare (+2), or Very Rare (+3)"
+      },
+      {
+        "name": "Arrow of Slaying",
+        "price": "600 gp",
+        "description": "Magical arrow designed to slay a particular kind of creature. Deals extra damage to its designated foe type.",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Berserker Axe",
+        "price": "2,000 gp",
+        "description": "Cursed axe that grants +1 to attack and damage rolls but may cause the wielder to go berserk.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Dagger of Venom",
+        "price": "2,500 gp",
+        "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. You can use an action to cause thick, black poison to coat the blade.",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Dancing Sword",
+        "price": "2,000 gp",
+        "description": "You can use a bonus action to toss this magic sword into the air and speak the command word. The sword begins to hover, flies up to 30 feet, and attacks one creature of your choice within 5 feet of it.",
+        "rarity": "Very Rare (requires attunement)"
+      },
+      {
+        "name": "Dragon Slayer",
+        "price": "8,000 gp",
+        "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a dragon with this weapon, the dragon takes an extra 3d6 damage of the weapon's type.",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Dwarven Thrower",
+        "price": "18,000 gp",
+        "description": "You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet.",
+        "rarity": "Very Rare (requires attunement by a dwarf)"
+      },
+      {
+        "name": "Flame Tongue",
+        "price": "5,000 gp",
+        "description": "You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Frost Brand",
+        "price": "2,200 gp",
+        "description": "When you hit with an attack using this magic sword, the target takes an extra 1d6 cold damage. In addition, while you hold the sword, you have resistance to fire damage.",
+        "rarity": "Very Rare (requires attunement)"
+      },
+      {
+        "name": "Giant Slayer",
+        "price": "7,000 gp",
+        "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. When you hit a giant with it, the giant takes an extra 2d6 damage of the weapon's type and must succeed on a DC 15 Strength saving throw or fall prone.",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Hammer of Thunderbolts",
+        "price": "16,000 gp",
+        "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. The hammer has properties associated with its ability to slay giants and synergy with two other items.",
+        "rarity": "Legendary"
+      },
+      {
+        "name": "Holy Avenger",
+        "price": "165,000 gp",
+        "description": "You gain a +3 bonus to attack and damage rolls made with this magic weapon. When you hit a fiend or an undead with it, that creature takes an extra 2d10 radiant damage.",
+        "rarity": "Legendary (requires attunement by a paladin)"
+      },
+      {
+        "name": "Javelin of Lightning",
+        "price": "1,500 gp",
+        "description": "This javelin is a magic weapon. When you hurl it and speak its command word, it transforms into a bolt of lightning, forming a line 5 feet wide that extends out from you to a target within 120 feet.",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Luck Blade",
+        "price": "24,000 gp",
+        "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. While the sword is on your person, you also gain a +1 bonus to saving throws.",
+        "rarity": "Legendary (requires attunement)"
+      },
+      {
+        "name": "Mace of Disruption",
+        "price": "8,000 gp",
+        "description": "When you hit a fiend or an undead with this magic weapon, that creature takes an extra 2d6 radiant damage. If the target has 25 hit points or fewer after taking this damage, it must succeed on a DC 15 Wisdom saving throw or be destroyed.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Mace of Smiting",
+        "price": "7,000 gp",
+        "description": "You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct.",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Mace of Terror",
+        "price": "8,000 gp",
+        "description": "This magic weapon has 3 charges. While holding it, you can use an action and expend 1 charge to release a wave of terror. Each creature of your choice in a 30-foot radius extending from you must succeed on a DC 15 Wisdom saving throw or become frightened of you for 1 minute.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Nine Lives Stealer",
+        "price": "8,000 gp",
+        "description": "You gain a +2 bonus to attack and damage rolls made with this magic weapon. The sword has 1d8+1 charges. If you score a critical hit against a creature that has fewer than 100 hit points, it must succeed on a DC 15 Constitution saving throw or be slain instantly.",
+        "rarity": "Very Rare (requires attunement)"
+      },
+      {
+        "name": "Oathbow",
+        "price": "3,500 gp",
+        "description": "When you nock an arrow on this bow, it whispers in Elvish, \"Swift defeat to my enemies.\" When you use this weapon to make a ranged attack, you can, as a command phrase, say, \"Swift death to you who have wronged me.\" The target of your attack becomes your sworn enemy until it dies or until dawn seven days later.",
+        "rarity": "Very Rare (requires attunement)"
+      },
+      {
+        "name": "Scimitar of Speed",
+        "price": "6,000 gp",
+        "description": "You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns.",
+        "rarity": "Very Rare (requires attunement)"
+      },
+      {
+        "name": "Sun Blade",
+        "price": "12,000 gp",
+        "description": "This item appears to be a longsword hilt. While grasping the hilt, you can use a bonus action to cause a blade of pure radiance to spring into existence, or make the blade disappear.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Sword of Life Stealing",
+        "price": "1,000 gp",
+        "description": "When you attack a creature with this magic weapon and roll a 20 on the attack roll, that target takes an extra 3d6 necrotic damage, provided that the target isn't a construct or an undead. You gain temporary hit points equal to the extra damage dealt.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Sword of Sharpness",
+        "price": "1,700 gp",
+        "description": "When you attack an object with this magic sword and hit, maximize your weapon damage dice against the target. When you attack a creature with this weapon and roll a 20 on the attack roll, that target takes an extra 4d6 slashing damage.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Sword of Wounding",
+        "price": "2,000 gp",
+        "description": "Hit points lost to this weapon's damage can be regained only through a short or long rest, rather than by regeneration, magic, or any other means.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Trident of Fish Command",
+        "price": "800 gp",
+        "description": "This trident is a magic weapon. It has 3 charges. While you carry it, you can use an action and expend 1 charge to cast Dominate Beast (save DC 15) from it on a beast that has an innate swimming speed.",
+        "rarity": "Uncommon (requires attunement)"
+      },
+      {
+        "name": "Vicious Weapon",
+        "price": "350 gp",
+        "description": "When you roll a 20 on your attack roll with this magic weapon, the target takes an extra 2d6 damage of the weapon's type.",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Vorpal Sword",
+        "price": "24,000 gp",
+        "description": "You gain a +3 bonus to attack and damage rolls made with this magic weapon. In addition, the weapon ignores resistance to slashing damage. When you attack a creature that has at least one head with this weapon and roll a 20 on the attack roll, you cut off one of the creature's heads.",
+        "rarity": "Legendary (requires attunement)"
+      },
+      {
+        "name": "Weapon of Warning",
+        "price": "60,000 gp",
+        "description": "This magic weapon warns you of danger. While the weapon is on your person, you have advantage on initiative rolls. In addition, you and any of your companions within 30 feet of you can't be surprised, except when incapacitated by something other than nonmagical sleep.",
+        "rarity": "Uncommon (requires attunement)"
+      }
+    ]
