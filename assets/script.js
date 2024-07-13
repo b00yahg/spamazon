@@ -1,3 +1,36 @@
+//This is the Shop category data
+const categories = [
+    {"name": "non-magic items", "tabs": ["weapons", "armor", "adventuring gear"]},
+    {"name": "magic items", "tabs": ["weapons", "armor", "wondrous items", "potions", "rings", "scrolls", "wands", "staff", "rods"]},
+    {"name": "spelljammers", "tabs": ["weapons", "modules", "upgrades", "fore mantle", "ammunition", "ships"]}
+];
+
+//These Import data for character items
+const armor = fs.readFileSync('../shopData/armor.json', 'utf8');
+const gear = fs.readFileSync('../shopData/gear.json', 'utf8');
+const magicArmor = fs.readFileSync('../shopData/magicArmor.json', 'utf8');
+const potions = fs.readFileSync('../shopData/potions.json', 'utf8');
+const rings = fs.readFileSync('../shopData/rings.json', 'utf8');
+const rods = fs.readFileSync('../shopData/rods.json', 'utf8');
+const scrolls = fs.readFileSync('../shopData/scrolls.json', 'utf8');
+const staff = fs.readFileSync('../shopData/staff.json', 'utf8');
+const wands = fs.readFileSync('../shopData/wands.json', 'utf8');
+const weapons = fs.readFileSync('../shopData/weapons.json', 'utf8');
+const wonderousItems = fs.readFileSync('../shopData/wonderousItems.json', 'utf8');
+
+//These Import data for ship equipment
+const shipAmmunition = fs.readFileSync('../shopData/shipAmmunition.json', 'utf8');
+const shipMantle = fs.readFileSync('../shopData/shipMantle.json', 'utf8');
+const shipModules = fs.readFileSync('../shopData/shipModules.json', 'utf8');
+const shipUpgrades = fs.readFileSync('../shopData/shipUpgrades.json', 'utf8');
+const shipWeapons = fs.readFileSync('../shopData/shipWeapons.json', 'utf8');
+
+//These Select Nav Buttons
+const mainNavButtons = document.querySelectorAll('#main-nav button');
+const subNav = document.getElementById('sub-nav');
+const content = document.getElementById('content');
+
+//Set up music to play in the background
 const music = new Audio('https://audio.jukehost.co.uk/K9iI6KuUTNqVpPYoeRTqBiJicOImtgBQ');
 music.play();
 music.loop = true;
@@ -11,65 +44,34 @@ function playMusic() {
     playMusic()
   })
 
-function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
+  mainNavButtons.forEach(button => {
+    button.addEventListener('click', () => {
+        const category = button.dataset.category;
+        renderSubNav(category);
+    });
+});
 
-    if (tabName === 'Spelljammers') {
-        document.querySelector('#Spelljammers .subtabcontent').style.display = 'block';
-        document.querySelector('#Spelljammers .tabs .tablinks').classList.add('active');
-    }
-}
-// hoping this helps handle spelljammer subtab
-function openSubTab(evt, subTabName) {
-    var i, subtabcontent, subtablinks;
-    subtabcontent = document.getElementsByClassName("subtabcontent");
-    for (i = 0; i < subtabcontent.length; i++) {
-        subtabcontent[i].style.display = "none";
-    }
-    subtablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < subtablinks.length; i++) {
-        subtablinks[i].className = subtablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(subTabName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-function openSubTab(evt, subTabName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementById(subTabName).getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementById(subTabName).getElementsByClassName("tab-button");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(subTabName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-// Opening spelljammer tab to hopefully fix spelljammer tab failure
-document.addEventListener('DOMContentLoaded', function() {
-    var spelljammersTab = document.querySelector('[onclick="openTab(event, \'Spelljammers\')"]');
-    if (spelljammersTab) {
-        spelljammersTab.addEventListener('click', function() {
-            setTimeout(function() {
-                var firstSubTab = document.querySelector('#Spelljammers .tabs .tablinks');
-                if (firstSubTab) {
-                    firstSubTab.click();
-                }
-            }, 0);
+function renderSubNav(category) {
+    const categoryData = categories.find(c => c.name === category);
+    if (categoryData) {
+        subNav.innerHTML = categoryData.tabs.map(tab => 
+            `<button data-category="${category}" data-tab="${tab}">${tab}</button>`
+        ).join('');
+
+        // Add click event listeners to sub nav buttons
+        const subNavButtons = subNav.querySelectorAll('button');
+        subNavButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const tab = button.dataset.tab;
+                renderContent(category, tab);
+            });
         });
     }
-});
+}
+
+function renderContent(category, tab) {}
+
+
 let cart = {};
     let total = 0;
 

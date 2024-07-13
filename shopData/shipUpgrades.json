@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Aethersails",
+        "price": "4,000gp",
+        "description": "Specialized sails that improve maneuverability or straight-line speed."
+      },
+      {
+        "name": "Arcane Weaponry",
+        "price": "1,000gp",
+        "description": "Converts a ship weapon to use magical firing systems."
+      },
+      {
+        "name": "Assault Port",
+        "price": "3,000gp",
+        "description": "Allows faster deployment from Fighter Bays."
+      },
+      {
+        "name": "Enchanted Hull",
+        "price": "5,000gp",
+        "description": "Increases the ship's AC by 1."
+      },
+      {
+        "name": "Enhanced Weapon",
+        "price": "1,000gp",
+        "description": "Improves a ship weapon's accuracy and range."
+      },
+      {
+        "name": "Gunpowder Station",
+        "price": "2,500gp",
+        "description": "Removes the Loading property from cannons on a specific hardpoint."
+      },
+      {
+        "name": "Helm Link",
+        "price": "5,000gp",
+        "description": "Allows two ships to travel together at jamming speeds."
+      },
+      {
+        "name": "Reinforced Bulwark",
+        "price": "5,000gp",
+        "description": "Increases the ship's bulwark points."
+      },
+      {
+        "name": "Reinforced Component",
+        "price": "2,500gp",
+        "description": "Doubles the hull points of a weapon, module, or sails."
+      },
+      {
+        "name": "Reinforced Hull",
+        "price": "4,000gp",
+        "description": "Increases the ship's hull points."
+      },
+      {
+        "name": "Turreted Hardpoint",
+        "price": "2,000gp",
+        "description": "Allows a hardpoint to rotate, changing the facing of the mounted weapon."
+      }
+
+]

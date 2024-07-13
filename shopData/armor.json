@@ -1,0 +1,105 @@
+[
+    {"name": "Padded Armor",
+    "price": "5 gp",
+    "ac": "11 + Dex modifier",
+    "properties": "Light",
+    "category": "Light Armor, Disadvantage on Stealth",
+    "type": "Light Armor"
+    },
+    {
+        "name": "Leather Armor",
+        "price": "10 gp",
+        "ac": "11 + Dex modifier",
+        "properties": "Light Armor",
+        "category": "Non-Magic",
+        "type": "Light Armor"
+      },
+      {
+        "name": "Studded Leather Armor",
+        "price": "45 gp",
+        "ac": "12 + Dex modifier",
+        "properties": "Light Armor",
+        "category": "Non-Magic",
+        "type": "Light Armor"
+      },
+      {
+        "name": "Hide Armor",
+        "price": "10 gp",
+        "ac": "12 + Dex modifier (max 2)",
+        "properties": "Medium Armor",
+        "category": "Non-Magic",
+        "type": "Medium Armor"
+      },
+      {
+        "name": "Chain Shirt",
+        "price": "50 gp",
+        "ac": "13 + Dex modifier (max 2)",
+        "properties": "Medium Armor",
+        "category": "Non-Magic",
+        "type": "Medium Armor"
+      },
+      {
+        "name": "Scale Mail",
+        "price": "50 gp",
+        "ac": "14 + Dex modifier (max 2)",
+        "properties": "Medium Armor, Disadvantage on Stealth",
+        "category": "Non-Magic",
+        "type": "Medium Armor"
+      },
+      {
+        "name": "Breastplate",
+        "price": "400 gp",
+        "ac": "14 + Dex modifier (max 2)",
+        "properties": "Medium Armor",
+        "category": "Non-Magic",
+        "type": "Medium Armor"
+      },
+      {
+        "name": "Half Plate",
+        "price": "750 gp",
+        "ac": "15 + Dex modifier (max 2)",
+        "properties": "Medium Armor, Disadvantage on Stealth",
+        "category": "Non-Magic",
+        "type": "Medium Armor"
+      },
+      {
+        "name": "Ring Mail",
+        "price": "30 gp",
+        "ac": "14",
+        "properties": "Heavy Armor, Disadvantage on Stealth",
+        "category": "Non-Magic",
+        "type": "Heavy Armor"
+      },
+      {
+        "name": "Chain Mail",
+        "price": "75 gp",
+        "ac": "16",
+        "properties": "Heavy Armor, Str 13, Disadvantage on Stealth",
+        "category": "Non-Magic",
+        "type": "Heavy Armor"
+      },
+      {
+        "name": "Splint",
+        "price": "200 gp",
+        "ac": "17",
+        "properties": "Heavy Armor, Str 15, Disadvantage on Stealth",
+        "category": "Non-Magic",
+        "type": "Heavy Armor"
+      },
+      {
+        "name": "Plate",
+        "price": "1,500 gp",
+        "ac": "18",
+        "properties": "Heavy Armor, Str 15, Disadvantage on Stealth",
+        "category": "Non-Magic",
+        "type": "Heavy Armor"
+      },
+      {
+        "name": "Shield",
+        "price": "10 gp",
+        "ac": "+2",
+        "properties": "",
+        "category": "Non-Magic",
+        "type": "Shield"
+      }
+    ]

@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Rod of the Pact Keeper, +1",
+        "price": "12,000 gp",
+        "description": "While holding this rod, you gain a +1 bonus to spell attack rolls and to the saving throw DCs of your warlock spells. In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Immovable Rod",
+        "price": "5,000 gp",
+        "description": "This flat iron rod has a button on one end. You can use an action to press the button, which causes the rod to become magically fixed in place. Until you or another creature uses an action to push the button again, the rod doesn't move, even if it is defying gravity.",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Rod of the Pact Keeper, +2",
+        "price": "16,000 gp",
+        "description": "While holding this rod, you gain a +2 bonus to spell attack rolls and to the saving throw DCs of your warlock spells. In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Rod of Rulership",
+        "price": "16,000 gp",
+        "description": "You can use an action to present the rod and command obedience from each creature of your choice that you can see within 120 feet of you. Each target must succeed on a DC 15 Wisdom saving throw or be charmed by you for 8 hours. While charmed in this way, the creature regards you as its trusted leader. If harmed by you or your companions, or commanded to do something contrary to its nature, a target ceases to be charmed in this way. The rod can't be used again until the next dawn.",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Rod of the Pact Keeper, +3",
+        "price": "28,000 gp",
+        "description": "While holding this rod, you gain a +3 bonus to spell attack rolls and to the saving throw DCs of your warlock spells. In addition, you can regain one warlock spell slot as an action while holding the rod. You can't use this property again until you finish a long rest.",
+        "rarity": "Very Rare"
+    },
+    {
+        "name": "Rod of Absorption",
+        "price": "50,000 gp",
+        "description": "While holding this rod, you can use your reaction to absorb a spell that is targeting only you and not with an area of effect. The absorbed spell's effect is canceled, and the spell's energy --- not the spell itself --- is stored in the rod. The energy has the same level as the spell when it was cast. The rod can absorb and store up to 50 levels of energy over the course of its existence.",
+        "rarity": "Very Rare"
+    },
+    {
+        "name": "Rod of Alertness",
+        "price": "25,000 gp",
+        "description": "This rod has a flanged head and the following properties. While holding the rod, you have advantage on Wisdom (Perception) checks and on rolls for initiative.",
+        "rarity": "Very Rare"
+    },
+    {
+        "name": "Rod of Security",
+        "price": "90,000 gp",
+        "description": "While holding this rod, you can use an action to activate it. The rod then instantly transports you and up to 199 other willing creatures you can see to a paradise that exists in an extraplanar space. You choose the form that the paradise takes. It could be a tranquil garden, lovely glade, cheery tavern, immense palace, tropical island, fantastic carnival, or whatever else you can imagine.",
+        "rarity": "Very Rare"
+    },
+    {
+        "name": "Rod of Lordly Might",
+        "price": "28,000 gp",
+        "description": "This rod has a flanged head, and it functions as a magic mace that grants a +3 bonus to attack and damage rolls made with it. The rod has properties associated with six different buttons that are set in a row along the haft.",
+        "rarity": "Legendary"
+    }
+
+]

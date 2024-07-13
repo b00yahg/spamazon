@@ -1,0 +1,110 @@
+[
+    {"name": "Armor, +1, +2, or +3",
+    "price": "1,500 gp (+1), 6,000 gp (+2), or 50,000 gp (+3)",
+    "ac": "You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.",
+    "rarity": "Rare (+1), Very Rare (+2), or Legendary (+3)"
+    },
+    {
+        "name": "Adamantine Armor",
+        "price": "500 gp",
+        "description": "This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Animated Shield",
+        "price": "6,000 gp",
+        "description": "While holding this shield, you can speak its command word as a bonus action to cause it to animate. The shield leaps into the air and hovers in your space to protect you as if you were wielding it, leaving your hands free.",
+        "rarity": "Very Rare (requires attunement)"
+      },
+      {
+        "name": "Armor of Invulnerability",
+        "price": "50,000 gp",
+        "description": "You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor.",
+        "rarity": "Legendary (requires attunement)"
+      },
+      {
+        "name": "Armor of Resistance",
+        "price": "6,000 gp",
+        "description": "You have resistance to one type of damage while you wear this armor. The DM chooses the type or determines it randomly.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Armor of Vulnerability",
+        "price": "1,500 gp",
+        "description": "While wearing this armor, you have resistance to one of the following damage types: bludgeoning, piercing, or slashing. The DM chooses the type or determines it randomly.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Arrow-Catching Shield",
+        "price": "6,000 gp",
+        "description": "You gain a +2 bonus to AC against ranged attacks while you wield this shield. This bonus is in addition to the shield's normal bonus to AC.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Demon Armor",
+        "price": "10,000 gp",
+        "description": "While wearing this armor, you gain a +1 bonus to AC, and you can understand and speak Abyssal. In addition, the armor's clawed gauntlets turn unarmed strikes with your hands into magic weapons that deal slashing damage, with a +1 bonus to attack rolls and damage rolls and a damage die of 1d8.",
+        "rarity": "Very Rare (requires attunement)"
+      },
+      {
+        "name": "Dragon Scale Mail",
+        "price": "4,000 gp",
+        "description": "While wearing this armor, you gain a +1 bonus to AC, you have advantage on saving throws against the Frightful Presence and breath weapons of dragons, and you have resistance to one type of damage based on the kind of dragon that provided the scales.",
+        "rarity": "Very Rare (requires attunement)"
+      },
+      {
+        "name": "Dwarven Plate",
+        "price": "10,000 gp",
+        "description": "While wearing this armor, you gain a +2 bonus to AC. In addition, if an effect moves you against your will along the ground, you can use your reaction to reduce the distance you are moved by up to 10 feet.",
+        "rarity": "Very Rare"
+      },
+      {
+        "name": "Elven Chain",
+        "price": "4,000 gp",
+        "description": "You gain a +1 bonus to AC while you wear this armor. You are considered proficient with this armor even if you lack proficiency with medium armor.",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Glamoured Studded Leather",
+        "price": "2,000 gp",
+        "description": "While wearing this armor, you gain a +1 bonus to AC. You can also use a bonus action to speak the armor's command word and cause the armor to assume the appearance of a normal set of clothing or some other kind of armor.",
+        "rarity": "Rare"
+      },
+      {
+        "name": "Mariner's Armor",
+        "price": "1,500 gp",
+        "description": "While wearing this armor, you have a swimming speed equal to your walking speed. In addition, whenever you start your turn underwater with 0 hit points, the armor causes you to rise 60 feet toward the surface.",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Mithral Armor",
+        "price": "800 gp",
+        "description": "Mithral is a light, flexible metal. A mithral chain shirt or breastplate can be worn under normal clothes. If the armor normally imposes disadvantage on Dexterity (Stealth) checks or has a Strength requirement, the mithral version of the armor doesn't.",
+        "rarity": "Uncommon"
+      },
+      {
+        "name": "Plate Armor of Etherealness",
+        "price": "48,000 gp",
+        "description": "While you're wearing this armor, you can speak its command word as an action to gain the effect of the Etherealness spell, which lasts for 10 minutes or until you remove the armor or use an action to speak the command word again.",
+        "rarity": "Legendary (requires attunement)"
+      },
+      {
+        "name": "Shield, +1, +2, or +3",
+        "price": "1,500 gp (+1), 6,000 gp (+2), or 50,000 gp (+3)",
+        "description": "While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.",
+        "rarity": "Uncommon (+1), Rare (+2), or Very Rare (+3)"
+      },
+      {
+        "name": "Shield of Missile Attraction",
+        "price": "6,000 gp",
+        "description": "While holding this shield, you have resistance to damage from ranged weapon attacks.",
+        "rarity": "Rare (requires attunement)"
+      },
+      {
+        "name": "Spellguard Shield",
+        "price": "50,000 gp",
+        "description": "While holding this shield, you have advantage on saving throws against spells and other magical effects, and spell attacks have disadvantage against you.",
+        "rarity": "Very Rare (requires attunement)"
+      }
+    
+]
