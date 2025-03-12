@@ -124,3 +124,121 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     });
 });
+
+function generateReceipt() {
+    const today = new Date();
+    const date = today.toLocaleDateString();
+    const time = today.toLocaleTimeString();
+    
+    // Group items by category
+    const categories = {};
+    
+    for (const [item, details] of Object.entries(cart)) {
+        // Try to infer the category from the item name
+        let category = "Miscellaneous";
+        
+        if (item.includes("Potion") || item.includes("Elixir") || item.includes("Oil") || item.includes("Philter")) {
+            category = "Potions & Consumables";
+        } else if (item.includes("Scroll")) {
+            category = "Scrolls";
+        } else if (item.includes("Wand")) {
+            category = "Wands";
+        } else if (item.includes("Staff") || item.includes("Rod")) {
+            category = "Staves & Rods";
+        } else if (item.includes("Ring")) {
+            category = "Rings";
+        } else if (item.includes("Armor") || item.includes("Shield") || item.includes("Plate") || item.includes("Mail")) {
+            category = "Armor & Shields";
+        } else if (item.includes("Sword") || item.includes("Axe") || item.includes("Bow") || item.includes("Arrow") || item.includes("Dagger")) {
+            category = "Weapons & Ammunition";
+        } else if (item.includes("Boots") || item.includes("Cloak") || item.includes("Amulet") || item.includes("Gloves")) {
+            category = "Wondrous Items";
+        } else if (item.includes("Ballista") || item.includes("Catapult") || item.includes("Cannon")) {
+            category = "Ship Weapons";
+        } else if (item.includes("Charge") || item.includes("Ammo") || item.includes("Shot") || item.includes("Bolt")) {
+            category = "Ship Ammunition";
+        }
+        
+        if (!categories[category]) {
+            categories[category] = [];
+        }
+        
+        categories[category].push({
+            name: item,
+            quantity: details.quantity,
+            price: details.total
+        });
+    }
+    
+    // Create receipt markdown
+    let receipt = `# SPAMAZON PURCHASE RECEIPT\n\n`;
+    receipt += `**Date:** ${date}\n`;
+    receipt += `**Time:** ${time}\n\n`;
+    receipt += `## ITEMS PURCHASED\n\n`;
+    
+    // Add items by category
+    for (const [category, items] of Object.entries(categories)) {
+        receipt += `### ${category}\n\n`;
+        receipt += `| Item | Quantity | Price (gp) |\n`;
+        receipt += `|------|----------|------------|\n`;
+        
+        for (const item of items) {
+            receipt += `| ${item.name} | ${item.quantity} | ${item.price.toFixed(2)} |\n`;
+        }
+        
+        receipt += `\n`;
+    }
+    
+    // Add totals
+    receipt += `## PAYMENT SUMMARY\n\n`;
+    receipt += `**Subtotal:** ${total.toFixed(2)} gp\n`;
+    receipt += `**Gold Tendered:** ${playerGold.toFixed(2)} gp\n`;
+    receipt += `**Change:** ${(playerGold - total).toFixed(2)} gp\n\n`;
+    
+    // Add footer
+    receipt += `---\n\n`;
+    receipt += `*Thank you for shopping at Spamazon!*\n`;
+    receipt += `*For all your adventuring needs and more.*\n\n`;
+    receipt += `*Shop operated by: Elvish Imperial Navy*\n`;
+    receipt += `*All sales are final. No refunds for cursed items.*\n`;
+    
+    return receipt;
+}
+
+function exportReceipt() {
+    if (Object.keys(cart).length === 0) {
+        alert("Your cart is empty!");
+        return;
+    }
+    
+    const receipt = generateReceipt();
+    const blob = new Blob([receipt], { type: 'text/markdown' });
+    const url = URL.createObjectURL(blob);
+    
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'spamazon_receipt.md';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+function copyReceipt() {
+    if (Object.keys(cart).length === 0) {
+        alert("Your cart is empty!");
+        return;
+    }
+    
+    const receipt = generateReceipt();
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(receipt)
+        .then(() => {
+            alert("Receipt copied to clipboard!");
+        })
+        .catch(err => {
+            console.error('Failed to copy receipt: ', err);
+            alert("Failed to copy receipt to clipboard!");
+        });
+}
