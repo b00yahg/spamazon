@@ -181,3 +181,27 @@ footer {
     display: block;
     margin: 10px auto 0;
 }
+.receipt-buttons {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.receipt-buttons button {
+    background-color: #FFD700;
+    color: #000080;
+    border: 2px solid #000080;
+    padding: 8px 15px;
+    margin: 0 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.receipt-buttons button:hover {
+    background-color: #FFC125;
+    transform: scale(1.05);
+}
+
+.receipt-buttons button:active {
+    transform: scale(0.95);
+}
