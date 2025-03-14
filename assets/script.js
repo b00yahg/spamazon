@@ -199,7 +199,7 @@ function generateReceipt() {
     receipt += `---\n\n`;
     receipt += `*Thank you for shopping at Spamazon!*\n`;
     receipt += `*For all your adventuring needs and more.*\n\n`;
-    receipt += `*Shop operated by: Elvish Imperial Navy*\n`;
+    receipt += `*Shop operated by: The Sindiath Line*\n`;
     receipt += `*All sales are final. No refunds for cursed items.*\n`;
     
     return receipt;
