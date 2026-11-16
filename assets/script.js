@@ -106,24 +106,6 @@ let cart = {};
 
 // Opens default tab
 document.getElementsByClassName("tab-button")[0].click();
-document.addEventListener('DOMContentLoaded', function() {
-    const music = document.getElementById('backgroundMusic');
-    const musicToggle = document.getElementById('musicToggle');
-    let musicStarted = false;
-
-    musicToggle.addEventListener('click', function() {
-    if (!musicStarted) {
-        music.play();
-        musicStarted = true;
-    } else {
-        if (music.paused) {
-        music.play();
-        } else {
-        music.pause();
-        }
-    }
-    });
-});
 
 function generateReceipt() {
     const today = new Date();
